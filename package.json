@@ -4,6 +4,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
+        "start": "node src/server.js",
         "dev": "node --watch src/server.js --env-file=.env",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
